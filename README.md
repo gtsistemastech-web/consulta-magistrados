@@ -14,15 +14,21 @@ Sistema de pesquisa, filtragem avançada e integração com e-mail para o quadro
    - **Por Situação Funcional**: Titulares em exercício vs. Respondentes / Designados.
    - **Busca Rápida Global**: Procura em tempo real por nome do juiz, vara, comarca, atos do DJ ou regras de substituição.
 
-2. **Integração Completa com Gmail & E-mail Institucional**:
+2. **Atualização Dinâmica de Planilha (Botão de Upload)**:
+   - **Upload de Novos Dados (.csv)**: Botão no cabeçalho *"Atualizar Planilha"* que permite carregar qualquer nova versão da planilha do TJGO via arquivo ou arrastar e soltar (*drag & drop*).
+   - **Parsing e Higienização em Tempo Real**: Aplica automaticamente as regras de higienização de nomes, exclusão de antigas denominações e classificação por matérias no próprio navegador.
+   - **Persistência Local (Offline)**: Salva a base customizada no navegador (`localStorage`), mantendo-a disponível mesmo após recarregar a página.
+   - **Restaurar Padrão**: Permite alternar de volta para a base oficial de Novembro/2026 com um clique.
+
+3. **Integração Completa com Gmail & E-mail Institucional**:
    - **Seleção em Lote**: Marque magistrados individualmente ou use o botão *"Selecionar Filtrados"* para marcar grupos inteiros com 1 clique.
-   - **Botão "Copiar para Gmail"**: Copia os nomes separados por vírgula (`Nome 1, Nome 2, ...`), pronto para colar no campo de busca do Gmail ou nos destinatários.
+   - **Copiar para Gmail (`virgula`)**: Copia os nomes separados por vírgula (`NOME 1, NOME 2, ...`), pronto para colar no campo de busca do Gmail ou nos destinatários, **sem nenhuma repetição**.
    - **Cópia em Linhas**: Ideal para planilhas e anotações.
    - **Sugestão de E-mails Institucionais**: Gera automaticamente o formato `@tjgo.jus.br` baseado no nome oficial do magistrado.
    - **Abrir Busca no Gmail**: Botão direto que abre uma nova aba no Gmail com a busca parametrizada dos magistrados selecionados.
    - **Exportar Seleção para CSV**: Download de arquivo `.csv` compatível com Excel e Google Sheets (UTF-8 com BOM).
 
-3. **Escala de Substituição Legal**:
+4. **Escala de Substituição Legal**:
    - Visualização imediata do Substituto Automático e Substituto Eventual para conferência rápida de impedimento, suspeição e plantão.
 
 ---
