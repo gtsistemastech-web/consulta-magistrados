@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Scripts de inspeção e teste temporários
+inspect_*.py
+test_*.py
+check_*.py
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
